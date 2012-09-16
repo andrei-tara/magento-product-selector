@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <productsselector_adminhtml_productsselector_index>
+        <reference name="content">
+            <block type="productsselector/adminhtml_productsselector" name="productsselector" />
+        </reference>
+    </productsselector_adminhtml_productsselector_index>
+    
+    
+    <productsselector_adminhtml_productsselector_edit>
+
+        <reference name="head"> 
+            <action method="addJs">
+                <script>andreitara/selector.js</script>
+            </action>
+        </reference>
+    </productsselector_adminhtml_productsselector_edit>
+</layout>
